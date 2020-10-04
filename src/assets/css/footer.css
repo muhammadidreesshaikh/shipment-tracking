@@ -1,13 +1,6 @@
 .footer{
-    /* background-image: url(../img/footer.jpg);
-    width: 100%;
-    height: auto;
-    background-blend-mode: soft-light;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center; */
-    background-color: #191919;
-    padding: 3% 0 1% 0;
+    background-color: #3f51b5;
+    padding: 30px 30px 7px 30px;
     background-repeat: no-repeat;
 }
 
@@ -26,26 +19,12 @@
 
 .footer .first p{
     font-size: 13px;
-    color: #c1c1c1;
-}
-
-.footer .press{
-    margin-top: 5%;
-}
-
-.footer .press a{
     color: white;
-    background-color: red;
-    border-radius: 3px;
-    padding: 5px 10px;
-    font-size: 13px;
+    padding-top: 10px;
 }
 
-.footer .press a:hover{
-    background-color: white;
-    color: black;
-    opacity: 0.5s;
-    transition: 0.5s;
+.footer Button{
+    margin-top: 5%;
 }
 
 .footer .first ul{
@@ -76,7 +55,8 @@
 }
 
 .footer .last p{
-   text-align: center;
-    color: grey;
-    font-size: 15px;
+    text-align: center;
+    color: #333333;
+    font-size: 13px;
+    padding-top: 7px;
 }

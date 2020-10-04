@@ -1,0 +1,43 @@
+.slider{
+    /* background-image: url('../img/slider1.jpg'); */
+    width: 100%;
+    text-align: center;
+    /* background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+    background-color: #636363; */
+    background-attachment: fixed;
+    background-color: var(--color-blue);
+}
+
+.slider {
+    padding: 0 0;
+}
+
+.slider h1{
+    font-size: 40px;
+    font-weight: bold;
+}
+
+.slider h1, .slider p {
+    color: #ffffff;
+}
+
+.slider .track .input{
+    width: 80%;
+    display: block;
+    margin: auto;
+}
+
+.slider .content
+{
+    width: 70%;
+    display: block;
+    margin: auto;
+}
+
+.slider .content-area
+{
+    padding: 120px 0;
+}
