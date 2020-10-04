@@ -3,54 +3,34 @@ import { Link } from 'react-router-dom';
 import '../assets/css/header.css'
 // import logo from '../assets/img/logo_465x320.png'
 
-import { makeStyles } from '@material-ui/core/styles';
-import { Grid, AppBar, Toolbar, Typography, Button } from '@material-ui/core';
-
-const useStyles = makeStyles((theme) => ({
-    root: {
-      flexGrow: 1,
-    },
-    menuButton: {
-      marginRight: theme.spacing(2),
-    },
-    title: {
-      flexGrow: 1,
-    },
-    linkColor: {
-        color: '#ffffff'
-    }
-}));
-
 function Header() {
-
-    const classes = useStyles();
-
     return(
         <div>
             <div className="header">
-                <AppBar position="static">
-                    <Toolbar>
-                        <Typography variant="h6" className={classes.title}>
-                            Shipment Tracking
-                        </Typography>
+                <div className="container">
+                    <div className="row">
 
-                        <Button color="inherit">
-                            <Link className={classes.linkColor} to="/home">Home</Link>
-                        </Button>
-                        <Button color="inherit">
-                            <Link className={classes.linkColor} to="/services">Services</Link>
-                        </Button>
-                        <Button color="inherit">
-                            <Link className={classes.linkColor} to="/about">About</Link>
-                        </Button>
-                        <Button color="inherit">
-                            <Link className={classes.linkColor} to="/contact">Contact</Link>
-                        </Button>
-                        <Button color="inherit">
-                            <Link className={classes.linkColor} to="/login">Login</Link>
-                        </Button>
-                    </Toolbar>
-                </AppBar>
+                        <div className="col-sm-4 col-md-4 col-lg-4">
+                            <div className='logo'>
+                                {/* <img src={logo} /> */}
+                                <a href="#">Shipment Tracking</a>
+                            </div>
+                        </div>
+
+                        <div className="col-sm-8 col-md-8 col-lg-8">
+                            <div className="nav">
+                                 <ul>
+                                    <li><Link to="/home">Home</Link></li>
+                                    <li><Link to="/services">Services</Link></li>
+                                    <li><Link to="/about">About</Link></li>
+                                    <li><Link to="/contact">Contact</Link></li>
+                                    <li><Link to="/login">Login</Link></li>
+                                 </ul>
+                            </div>
+                        </div>
+                       
+                    </div>
+                </div>
             </div>
         </div>
     );

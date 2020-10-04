@@ -1,6 +1,13 @@
 .footer{
-    background-color: #3f51b5;
-    padding: 30px 30px 7px 30px;
+    /* background-image: url(../img/footer.jpg);
+    width: 100%;
+    height: auto;
+    background-blend-mode: soft-light;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center; */
+    background-color: var(--color-blue);
+    padding: 3% 0 1% 0;
     background-repeat: no-repeat;
 }
 
@@ -13,17 +20,16 @@
 
 .footer .first h3{
     font-size: 17px;
-    color: white;
+    color: var(--color-white);
     font-weight: bold;
 }
 
 .footer .first p{
-    font-size: 13px;
-    color: white;
-    padding-top: 10px;
+    font-size: 12px;
+    color: var(--color-white);
 }
 
-.footer Button{
+.footer .press{
     margin-top: 5%;
 }
 
@@ -42,21 +48,20 @@
 }
 
 .footer .first li a:hover{
-    color: #c1c1c1;
+    color: var(--color-black);
     opacity: 0.5s;
     transition: 0.5s;
 }
 
 .footer .seprator{
     width: 100%;
-    background-color: #ffffff1f;
-    height: 2px;
+    background-color: #82828285;
+    height: 1px;
     margin-top: 3%;
 }
 
 .footer .last p{
-    text-align: center;
-    color: #333333;
-    font-size: 13px;
-    padding-top: 7px;
+   text-align: center;
+    color: var(--color-white);
+    font-size: 12px;
 }
