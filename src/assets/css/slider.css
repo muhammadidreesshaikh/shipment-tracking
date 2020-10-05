@@ -21,15 +21,35 @@
     font-size: 15px;
 } 
 
-.slider .left input{
-    
-} 
-
-.slider .right{
-    
-} 
-
 .slider .right img{
     width: 100%;
     height: auto;
 } 
+
+
+
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 768px) {
+    
+    .slider{
+        height: 55vh;
+        padding-top: 10%;
+    }
+
+    .slider .left{
+        padding-top: 15%;
+    }
+
+    .slider .left h1{
+        font-size: 35px;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    .slider .right img{
+        display: none;
+    }
+}
