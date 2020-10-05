@@ -1,11 +1,35 @@
 .slider{
-    /* background-image: url('../img/slider1.jpg'); */
+    background-color: var(--color-blue);
     width: 100%;
+    height: 80vh;
     text-align: center;
-    /* background-size: cover;
-    background-position: top;
-    background-repeat: no-repeat;
-    background-blend-mode: soft-light;
-    background-color: #636363; */
     background-attachment: fixed;
-}
+} 
+
+.slider .left{
+    padding-top: 27%;
+} 
+
+.slider .left h1{
+    color: white;
+    font-weight: bold;
+    font-size: 39px;
+} 
+
+.slider .left p{
+    color: white;
+    font-size: 15px;
+} 
+
+.slider .left input{
+    
+} 
+
+.slider .right{
+    
+} 
+
+.slider .right img{
+    width: 100%;
+    height: auto;
+} 
