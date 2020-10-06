@@ -8,6 +8,7 @@ import Services from './components/Services';
 import About from './components/About';
 import Contact from './components/Contact';
 import Login from './components/Login';
+import AddUser from './components/AddUser';
 
 import { 
   BrowserRouter as Router, 
@@ -30,6 +31,7 @@ function App() {
               <Route exact path='/about' component={About}></Route>
               <Route exact path='/contact' component={Contact}></Route>
               <Route exact path='/login' component={Login}></Route>
+              <Route exact path='/add-user' component={AddUser}></Route>
             </Switch>
           </div>
 
