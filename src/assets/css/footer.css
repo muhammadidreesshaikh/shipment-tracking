@@ -1,11 +1,4 @@
 .footer{
-    /* background-image: url(../img/footer.jpg);
-    width: 100%;
-    height: auto;
-    background-blend-mode: soft-light;
-    background-attachment: fixed;
-    background-size: cover;
-    background-position: center; */
     background-color: var(--color-blue);
     padding: 3% 0 1% 0;
     background-repeat: no-repeat;
@@ -64,4 +57,27 @@
    text-align: center;
     color: var(--color-white);
     font-size: 12px;
+}
+
+
+
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 768px) {
+    .footer{
+        padding: 5% 0 1% 0;
+    }
+
+    .footer .first h3{
+        font-size: 16px;
+    }
+    
+    
+}
+
+@media only screen and (max-width: 600px) {
+    .footer .first{
+        margin-top: 10%;
+    }
+  
 }

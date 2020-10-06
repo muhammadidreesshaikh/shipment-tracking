@@ -1,7 +1,7 @@
 :root {
   --color-blue: #3f51b5;
   --color-black: #020202;
-  --color-gry: #c1c1c1;
+  --color-gry: #a0a0a0;
   --color-white: #ffff;
   --color-red:  #df0101;
 }
@@ -46,4 +46,13 @@ a{
   opacity: 0.5s;
   transition: 0.5s;
   color: var(--color-blue);
+}
+
+.seprator{
+  width: 10%;
+  background-color: var(--color-gry);
+  height: 6px;
+  display: block;
+  margin: auto;
+  border-radius: 7px;
 }
