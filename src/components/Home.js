@@ -10,7 +10,9 @@ import slider1 from '../assets/img/slider1.jpg'
 import card1 from '../assets/img/cards1.jpg'
 import card3 from '../assets/img/cards3.jpg'
 import card7 from '../assets/img/cards7.jpg'
-
+import discover1 from '../assets/img/discover1.jpg'
+import discover2 from '../assets/img/discover2.jpg'
+import discover3 from '../assets/img/discover3.jpg'
 
 class Home extends React.Component {
 
@@ -158,6 +160,80 @@ class Home extends React.Component {
                                         </div>
                                     </div>
                                 </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="discover">
+                        <div className="container">
+                            <div className="row">
+
+                               <div className="col-12 col-md-12 col-lg-12">
+                                    <h1>DISCOVER SHIPMENT TRACKING</h1>
+
+                                    <div className="seprator mt-3"></div>
+                               </div>
+
+                                <div className="col-12 col-md-6 col-lg-4">
+                                    <div className="card">
+                                        <img src={discover1} />
+                                        <div className="card-body">
+                                            <h5 className="card-title">MEDIA WATCH</h5>
+                                            <p className="card-text pt-2">Shipment Tracking Stay upto date with all the latest news and media updates with Shipment Tracking Media Watch.</p>
+                                            
+                                            <div className="pt-4">
+                                                <a className="press" href="#" >Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-12 col-md-6 col-lg-4">
+                                    <div className="card">
+                                        <img src={discover2} />
+                                        <div className="card-body">
+                                            <h5 className="card-title">Tracking TECHNOLOGY</h5>
+                                            <p className="card-text pt-2">Shipment Tracking Technology is an initiative where we mix innovation and technology together for your courier needs.</p>
+                                            
+                                            <div className="pt-4">
+                                                <a className="press" href="#" >Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                                <div className="col-12 col-md-6 col-lg-4">
+                                    <div className="card">
+                                        <img src={discover3} />
+                                        <div className="card-body">
+                                            <h5 className="card-title">OUR PEOPLE</h5>
+                                            <p className="card-text pt-2">We at Shipment Tracking strive to provide a friendly professional environment which leads to more productivity.</p>
+                                            
+                                            <div className="pt-4">
+                                                <a className="press" href="#" >Read More</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="find ">
+                        <div className="container">
+                            <div className="row">
+
+                               <div className="col-12 col-md-6 col-lg-6">
+                                    <h4>Find Your Nearest Express Center!</h4>
+                               </div>
+
+                               <div className="col-12 col-md-6 col-lg-6">
+                                    <div className="find-button">
+                                        <a className="press" href="#">FIND NOW</a>
+                                    </div>
+                               </div>
 
                             </div>
                         </div>
