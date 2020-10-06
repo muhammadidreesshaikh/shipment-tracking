@@ -1,0 +1,23 @@
+.contact {
+    padding: 5% 0;
+}
+
+.contact .input input, .input textarea 
+{
+    color: var(--color-black);
+    border-radius: 5px;
+    padding: 8px 0 8px 10px;
+    width: 100%;
+    height: auto;
+    margin-top: 5%;
+    font-size: 14px;
+}
+
+.contact .input input::placeholder, .input textarea::placeholder
+{
+    color: rgb(138, 138, 138);
+}
+
+.contact .press{
+    padding: 7px 25px;
+}
