@@ -41,33 +41,13 @@ class AddUser extends React.Component {
                                             </div>
                                             
                                             <div className="pb-4">
-                                                <div class="form-check pt-1">
-                                                    <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1"></input>
-                                                    <label className="form-check-label" for="exampleRadios1">
-                                                        Admin
-                                                    </label>
-                                                </div>
-
-                                                <div className="form-check pt-1">
-                                                    <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2"></input>
-                                                    <label className="form-check-label" for="exampleRadios2">
-                                                        Manager
-                                                    </label>
-                                                </div>
-
-                                                <div className="form-check pt-1">
-                                                    <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios3" value="option3"></input>
-                                                    <label className="form-check-label" for="exampleRadios3">
-                                                        Accountant
-                                                    </label>
-                                                </div>
-
-                                                <div className="form-check pt-1">
-                                                    <input className="form-check-input" type="radio" name="exampleRadios" id="exampleRadios4" value="option4"></input>
-                                                    <label className="form-check-label" for="exampleRadios4">
-                                                        Supervisior
-                                                    </label>
-                                                </div>
+                                                <select class="custom-select mr-sm-2" id="inlineFormCustomSelect">
+                                                    <option selected>Choose Any One</option>
+                                                    <option value="1">Admin</option>
+                                                    <option value="2">Manager</option>
+                                                    <option value="3">Accountant</option>
+                                                    <option value="4">Supervisior</option>
+                                                </select>
                                             </div>
                                             
                                             <button type="submit" class="btn btn-primary w-100">Add New User</button>
