@@ -1,0 +1,33 @@
+.about{
+    padding: 8% 0;
+}
+
+.about h1{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.about p{
+    color: var(--color-gry);
+    font-size: 14px;
+}
+
+
+
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 768px) {
+
+    .about h1{
+        font-size: 20px;
+    }
+
+    .about p{
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    
+}

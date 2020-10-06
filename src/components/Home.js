@@ -2,7 +2,7 @@ import React from 'react';
 import Slider from '../shared/Slider';
 import '../assets/css/home.css';
 
-import card2 from '../assets/img/cards2.jpg'
+import card2 from '../assets/img/cards2.jpg' 
 import card8 from '../assets/img/cards8.jpg'
 import card9 from '../assets/img/cards9.jpg'
 import card10 from '../assets/img/cards10.jpg'

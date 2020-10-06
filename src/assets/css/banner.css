@@ -1,0 +1,34 @@
+.mini-slider{
+    /* background-image: url(../img/mini1.jpg); */
+    background-position: center;
+    background-size: cover;
+    background-color: #333333d6;
+    background-blend-mode: soft-light;
+    width: 100%;
+    height: 45vh;
+    padding: 10% 0;
+    text-align: center;
+    color: white;
+    
+}
+
+.mini-slider h1{
+    font-size: 40px;
+    color: white; 
+    font-weight: bold;
+}
+
+
+/* menu desktop and mobile switching on responsive  */
+
+@media only screen and (max-width: 768px) {
+    .mini-slider{
+        height: 30vh;
+    }
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+    
+}
