@@ -1,5 +1,6 @@
 import React from 'react';
 import '../assets/css/login.css';
+import Banner from '../shared/Banner';
 
 class Login extends React.Component {
 
@@ -10,6 +11,11 @@ class Login extends React.Component {
             data: [],
             loading: false
         };
+
+        this.bannerData = {
+            heading: 'Login',
+            image: 'https://image.freepik.com/free-vector/gradient-geometric-shape-background_78532-374.jpg'
+        }
     } 
 
     componentDidMount() {
@@ -22,7 +28,9 @@ class Login extends React.Component {
 
     render() {
         return(
-            <div>
+            <section>
+                <Banner data={this.bannerData} />
+
                 <div className="login-form py-5">
                     <div className="container">
                         <div className="row justify-content-center">
@@ -60,7 +68,7 @@ class Login extends React.Component {
                         </div>
                     </div>
                 </div>
-            </div>
+            </section>
         );
     }
 }

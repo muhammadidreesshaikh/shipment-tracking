@@ -33,9 +33,9 @@ class Contact extends React.Component {
 
                 <div className="contact">
                     <div className="container">
-                        <div className="row justify-content: center">
+                        <div className="row justify-content-center">
 
-                            <div className="col-12 col-md-8 col-lg-8">
+                            <div className="col-12 col-md-6 col-lg-6">
                                 <div className="row input">
                                     
                                     <div className="col-12 col-md-12 col-lg-12">
@@ -43,15 +43,19 @@ class Contact extends React.Component {
                                     </div>
 
                                     <div className="col-12 col-md-12 col-lg-12">
-                                        <input type="email" class="form-control" placeholder="Email"></input>
+                                        <input type="email" class="form-control" placeholder="Your Email"></input>
                                     </div>
 
-                                    <div className="col-12 col-md-6 col-lg-6">
-                                        <input type="addres" class="form-control" placeholder="Address"></input>
+                                    <div className="col-12 col-md-12 col-lg-12">
+                                        <input type="addres" class="form-control" placeholder="Your Address"></input>
                                     </div>
 
                                     <div className="col-12 col-md-6 col-lg-6">
                                         <input type="company name " class="form-control" placeholder="Company Name"></input>
+                                    </div>
+
+                                    <div className="col-12 col-md-6 col-lg-6">
+                                        <input type="number" class="form-control" placeholder="Contact"></input>
                                     </div>
 
                                     <div className="col-12 col-md-12 col-lg-12">
